@@ -7,6 +7,7 @@
   <title> Creative Journey </title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="https://use.typekit.net/bjk3plt.css">
+  <link rel="stylesheet" href="jquery.fancybox.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -40,7 +41,7 @@
     </div>
   </div>
   <!-- BELOW THE FOLD -->
-  <div class="below-the-fold">
+  <div class="below-the-fold" id="below-the-fold">
     <div class="menu">
       <a href="#2019">2019</a>
       <a href="#2018">2018</a>
@@ -51,9 +52,8 @@
     </div>
 
     <!-- when you hover over an image it shows more information about it in this section -->
-    <div class="about">
-      <p>This site is a timeline of what I have on record of what I've been doing over the years and the process I took to get to where I am. There going to be alot of unfinished projects but that's because I haven't finished growing creatively!</p>
-      <p>hover over an image!</p>
+    <div class="about" id="caption">
+      <p class="description">This site is a timeline of what I have on record of what I've been doing over the years and the process I took to get to where I am. There going to be alot of unfinished projects but that's because I haven't finished growing creatively!</p>
     </div>
 
     <div class="section latest-year" id="2019">
@@ -63,12 +63,12 @@
         <p class="section-text">Started an internship for sales communication and design! Took a Brand Design Class, an Intro to Web Development, and an Ideation and Prototyping class.</p>
       </div>
       <div class="section-images">
-        <img src="2019/1.png">
-        <img src="2019/2.png">
-        <img src="2019/3.png">
-        <img src="2019/6.png">
-        <img src="2019/4.JPG">
-        <img src="2019/5.JPG">
+        <a class="changeText" href="2019/1.png" data-fancybox="2019gallery" data-caption= "A newsletter graphic I made for a Halloween event on campus."><img src="2019/1.png"></a>
+        <a class="changeText" href="2019/2.png" data-fancybox="2019gallery" data-caption= "A photoshop edit I made so I can make a mug for a secret snowflake gift"><img src="2019/2.png"></a>
+        <a class="changeText" href="2019/3.png" data-fancybox="2019gallery" data-caption= "A sketch I made for my Ideation and Prototypying class."><img src="2019/3.png"></a>
+        <a class="changeText" href="2019/6.png" data-fancybox="2019gallery" data-caption= "The final drawing for a Washington Square News Under the Arch piece about the protests in Hong Kong. <br> Took the original drawing and editted the dots out and added color in Photoshop."><img src="2019/6.png"></a>
+        <a class="changeText" href="2019/4.JPG" data-fancybox="2019gallery" data-caption= "The original drawing I made for an Under the Arch piece about the Hong Kong protests."><img src="2019/4.JPG"></a>
+        <a class="changeText" href="2019/5.JPG" data-fancybox="2019gallery" data-caption= "A sketch I made when I was delirious when I stayed up 24 hours."><img src="2019/5.JPG"></a>
       </div>
     </div>
 
@@ -79,12 +79,12 @@
         <p class="section-text">Graduated High School! Started College! Got a design job!</p>
       </div>
       <div class="section-images">
-        <img src="2018/1.jpg">
-        <img src="2018/2.png">
-        <img src="2018/3.JPG">
-        <img src="2018/4.png">
-        <img src="2018/5.png">
-        <img src="2018/6.png">
+        <a class="changeText" href="2018/1.png" data-fancybox="2018gallery" data-caption= "An advertisement I made for sunglasses without using sunglasses form my high school design class."><img src="2018/1.jpg"></a>
+        <a class="changeText" href="2018/2.png" data-fancybox="2018gallery" data-caption= "A tutorial illustration where I only used a berry for my high school design class."><img src="2018/2.png"></a>
+        <a class="changeText" href="2018/3.JPG" data-fancybox="2018gallery" data-caption= "My finished ceramic hand. Glazed it white and used costume makeup to get the skin color."><img src="2018/3.JPG"></a>
+        <a class="changeText" href="2018/4.png" data-fancybox="2018gallery" data-caption= "A choose your own adventure game I made for my AP Coding class."><img src="2018/4.png"></a>
+        <a class="changeText" href="2018/5.png" data-fancybox="2018gallery" data-caption= "Butterfingers. Get it? \n I made this as a part of a literal interpretations project for my highschool design class."><img src="2018/5.png"></a>
+        <a class="changeText" href="2018/6.png" data-fancybox="2018gallery" data-caption= "Water Boy. Get it? \n I made this as a part of a literal interpretations project for my highschool design class."><img src="2018/6.png"></a>
       </div>
     </div>
 
@@ -95,15 +95,15 @@
         <p class="section-text">Started taking design more seriously!</p>
       </div>
       <div class="section-images">
-        <img src="2017/1.JPG">
-        <img src="2017/3.JPG">
-        <img src="2017/5.JPG">
-        <img src="2017/6.jpg">
-        <img src="2017/7.png">
-        <img src="2017/8.png">
-        <img src="2017/9.png">
-        <img src="2017/10.png">
-        <img src="2017/11.png">
+        <a class="changeText" href="2017/1.JPG" data-fancybox="2017gallery" data-caption=  "A photograph I took of the aftermath of someone pricking themselves with a needle while making a pillow."><img src="2017/1.JPG"></a>
+        <a class="changeText" href="2017/3.JPG" data-fancybox="2017gallery" data-caption= "A terracotta hand I made after the first firing."><img src="2017/3.JPG"></a>
+        <a class="changeText" href="2017/5.JPG" data-fancybox="2017gallery" data-caption= "A kind of lopsided vase I made on the pottery wheel fired and glazed."><img src="2017/5.JPG"></a>
+        <a class="changeText" href="2017/6.jpg" data-fancybox="2017gallery" data-caption= "The druid bust during the raku firing."><img src="2017/6.jpg"></a>
+        <a class="changeText" href="2017/7.png" data-fancybox="2017gallery" data-caption= "A calendar I made in InDesign for my high school design class."><img src="2017/7.png"></a>
+        <a class="changeText" href="2017/8.png" data-fancybox="2017gallery" data-caption= "The cover for a calendar I made in InDesign for my high school design class."><img src="2017/8.png"></a>
+        <a class="changeText" href="2017/9.png" data-fancybox="2017gallery" data-caption= "A flyer for the programming club I made in high school."><img src="2017/9.png"></a>
+        <a class="changeText" href="2017/10.png" data-fancybox="2017gallery" data-caption= "A flyer to help conserve paper towel use for the ecology club I made during high school."><img src="2017/10.png"></a>
+        <a class="changeText" href="2017/11.png" data-fancybox="2017gallery" data-caption="A fishing game I made in code.org for my AP Coding class." ><img src="2017/11.png"></a>
       </div>
     </div>
 
@@ -114,14 +114,14 @@
         <p class="section-text">Started getting intrested in photography!</p>
       </div>
       <div class="section-images">
-        <img src="2016/1.JPG">
-        <img src="2016/2.JPG">
-        <img src="2016/4.JPG">
-        <img src="2016/3.JPG">
-        <img src="2016/5.JPG">
-        <img src="2016/6.JPG">
-        <img src="2016/7.JPG">
-        <img src="2016/8.JPG">
+        <a class="changeText" href="2016/1.JPG" data-fancybox="2016gallery" data-caption= "A photograph I took of ecology club members recycling."><img src="2016/1.JPG"></a>
+        <a class="changeText" href="2016/2.JPG" data-fancybox="2016gallery" data-caption= "A drawing of a flower I didn't finish."><img src="2016/2.JPG"></a>
+        <a class="changeText" href="2016/4.JPG" data-fancybox="2016gallery" data-caption= "The fox masked after the second firing."><img src="2016/4.JPG"></a>
+        <a class="changeText" href="2016/3.JPG" data-fancybox="2016gallery" data-caption= "A mask I made in ceramics class fired once and glazed."><img src="2016/3.JPG"></a>
+        <a class="changeText" href="2016/5.JPG" data-fancybox="2016gallery" data-caption= "A doodle I made during chemistry class."><img src="2016/5.JPG"></a>
+        <a class="changeText" href="2016/6.JPG" data-fancybox="2016gallery" data-caption=  "A small doodle I made during chemistry class."><img src="2016/6.JPG"></a>
+        <a class="changeText" href="2016/7.JPG" data-fancybox="2016gallery" data-caption= "A photograph I took for a photo scavenger hunt for my yearbook class. This is of two people interacting."><img src="2016/7.JPG"></a>
+        <a class="changeText" href="2016/8.JPG" data-fancybox="2016gallery" data-caption=  "A photograph I took for a photo scavenger hunt for my yearbook class. This is of someone writing."><img src="2016/8.JPG"></a>
       </div>
     </div>
 
@@ -132,13 +132,13 @@
         <p class="section-text">Really focused in on ceramic sculptures!</p>
       </div>
       <div class="section-images">
-        <img src="2015/2.JPG">
-        <img src="2015/1.JPG">
-        <img src="2015/3.JPG">
-        <img src="2015/7.JPG">
-        <img src="2015/5.JPG">
-        <img src="2015/4.JPG">
-        <img src="2015/8.JPG">
+        <a class="changeText" href="2015/2.JPG" data-fancybox="2015gallery" data-caption= "My second version of my cake, leather hard."><img src="2015/2.JPG"></a>
+        <a class="changeText" href="2015/1.JPG" data-fancybox="2015gallery" data-caption= "My first version of my cake fired once and glazed."><img src="2015/1.JPG"></a>
+        <a class="changeText" href="2015/3.JPG" data-fancybox="2015gallery" data-caption= "An agenda cover I made for the agenda cover contest."><img src="2015/3.JPG"></a>
+        <a class="changeText" href="2015/7.JPG" data-fancybox="2015gallery" data-caption= "A sketch of some anime girl from a manga I was reading. Colored."><img src="2015/7.JPG"></a>
+        <a class="changeText" href="2015/5.JPG" data-fancybox="2015gallery" data-caption= "A sketch of some anime girl from a manga I was reading. Inked."><img src="2015/5.JPG"></a>
+        <a class="changeText" href="2015/4.JPG" data-fancybox="2015gallery" data-caption= "A sketch of some anime girl from a manga I was reading. Pencil."><img src="2015/4.JPG"></a>
+        <a class="changeText" href="2015/8.JPG" data-fancybox="2015gallery" data-caption= "A heart I created out of clay. Still pliable."><img src="2015/8.JPG"></a>
       </div>
     </div>
 
@@ -149,13 +149,13 @@
         <p class="section-text">Drew every chance I got!</p>
       </div>
       <div class="section-images">
-        <img src="2014/1.JPG">
-        <img src="2014/2.JPG">
-        <img src="2014/3.JPG">
-        <img src="2014/7.JPG">
-        <img src="2014/5.JPG">
-        <img src="2014/4.JPG">
-        <img src="2014/9.JPG">
+        <a class="changeText" href="2014/1.JPG" data-fancybox="2014gallery" data-caption="Sketch of a jewelry box."><img src="2014/1.JPG"></a>
+        <a class="changeText" href="2014/2.JPG" data-fancybox="2014gallery" data-caption="A sketched out album cover redesign."><img src="2014/2.JPG"></a>
+        <a class="changeText" href="2014/3.JPG" data-fancybox="2014gallery" data-caption="A collage of drawing and magazine clippings."><img src="2014/3.JPG"></a>
+        <a class="changeText" href="2014/7.JPG" data-fancybox="2014gallery" data-caption="Filia from Skull Girls Part 3."><img src="2014/7.JPG"></a>
+        <a class="changeText" href="2014/5.JPG" data-fancybox="2014gallery" data-caption="Filia from Skull Girls Part 2."><img src="2014/5.JPG"></a>
+        <a class="changeText" href="2014/4.JPG" data-fancybox="2014gallery" data-caption="Filia from Skull Girls Part 1."><img src="2014/4.JPG"></a>
+        <a class="changeText" href="2014/9.JPG" data-fancybox="2014gallery" data-caption="A banner I made for a website made in my high school design class."><img src="2014/9.JPG"></a>
 
       </div>
     </div>
@@ -163,6 +163,9 @@
 
 
   <script src="script.js"></script>
+  <script src="chroma.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="jquery.fancybox.min.js"></script>
 </body>
 
 </html>
